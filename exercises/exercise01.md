@@ -1,6 +1,6 @@
 # Exercise 01: World Database SQL Practice
 
-- Name:
+- Name: Sydney Sailors
 - Course: Database for Analytics
 - Module: 1
 - Database Used: World Database
@@ -27,10 +27,10 @@
 Why were these data types selected?
 
 ### Answer
-_Write your explanation here._
+`country.Population` is stored as an integer data type and represents the whole-count of people, so decimals are not needed.
+`country.LifeExpectancy` is stored as a decimal data type, which is appropriate as life expectancy is a statistical average. 
 
 ### Screenshot
-_Show the table structure or DESCRIBE output._
 
 ```sql
 DESCRIBE country;
