@@ -100,7 +100,7 @@ ORDER BY GovernmentForm;
 
 ### Screenshot
 
-![Q5 Screenshot](screenshots/q5_government_forms.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-18 at 7 10 26 PM" src="https://github.com/user-attachments/assets/6f205ab6-3c61-4b90-b05b-9429233cf3b0" />
 
 ---
 
