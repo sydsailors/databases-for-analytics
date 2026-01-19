@@ -64,7 +64,7 @@ DESCRIBE country;
 Explain why your proposed data type might be better in some situations.
 
 ### Answer
-_Write your explanation here._
+I believe `YEAR` would be better in some situations because you could leverage built-in SQL date and time funtions for extraction, comparison, or calculations. Queries could be more straightforward compared to using `country.IndepYear`.
 
 ---
 
