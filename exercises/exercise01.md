@@ -118,7 +118,7 @@ WHERE Continent = 'Oceania';
 
 ### Screenshot
 
-![Q6 Screenshot](screenshots/q6_oceania.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-18 at 7 14 14 PM" src="https://github.com/user-attachments/assets/1ef937a5-e68a-49dc-a842-feb59d6313cc" />
 
 ---
 
