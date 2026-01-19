@@ -36,7 +36,7 @@ Why were these data types selected?
 DESCRIBE country;
 ```
 
-![Q1 Screenshot](screenshots/q1_datatypes.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-18 at 6 44 46 PM" src="https://github.com/user-attachments/assets/53c9cb41-ad03-4462-969a-856f8182d15a" />
 
 ---
 
