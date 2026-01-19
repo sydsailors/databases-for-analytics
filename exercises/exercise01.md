@@ -28,7 +28,7 @@ Why were these data types selected?
 
 ### Answer
 `country.Population` is stored as an integer data type and represents the whole-count of people, so decimals are not needed.
-`country.LifeExpectancy` is stored as a decimal data type, which is appropriate as life expectancy is a statistical average. 
+`country.LifeExpectancy` is stored as a decimal data type, which is appropriate as life expectancy is a statistical average.
 
 ### Screenshot
 
@@ -46,7 +46,7 @@ DESCRIBE country;
 Why do you think this data type was selected?
 
 ### Answer
-_Write your explanation here._
+The data type of `country.IndepYear` is `smallInt`. `smallInt` is used to optimize database performance and storage efficiency. 
 
 ### Screenshot
 
