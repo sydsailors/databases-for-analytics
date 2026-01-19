@@ -54,7 +54,7 @@ The data type of `country.IndepYear` is `smallInt`. `smallInt` is used to optimi
 DESCRIBE country;
 ```
 
-![Q2 Screenshot](screenshots/q2_indepyear.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-18 at 6 55 46 PM" src="https://github.com/user-attachments/assets/7b68a352-9a2a-491d-b485-7b4b3a9b2ce3" />
 
 ---
 
