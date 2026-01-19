@@ -10,7 +10,7 @@
 [project]
 name = "databases-for-analytics" # CUSTOM: Package distribution name (use lowercase and dashes).
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 version = "0.1.0"
 
 dependencies = [
