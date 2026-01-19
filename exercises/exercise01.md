@@ -82,7 +82,7 @@ ORDER BY Name;
 
 ### Screenshot
 
-![Q4 Screenshot](screenshots/q4_cities_sorted.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-18 at 7 04 37 PM" src="https://github.com/user-attachments/assets/33ce9637-c6c1-4813-977a-f1b59cb956b6" />
 
 ---
 
