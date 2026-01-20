@@ -82,7 +82,7 @@ ORDER BY Name;
 
 ### Screenshot
 
-![Q4 Screenshot](screenshots/q4_cities_sorted.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-18 at 7 04 37 PM" src="https://github.com/user-attachments/assets/33ce9637-c6c1-4813-977a-f1b59cb956b6" />
 
 ---
 
@@ -100,7 +100,7 @@ ORDER BY GovernmentForm;
 
 ### Screenshot
 
-![Q5 Screenshot](screenshots/q5_government_forms.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-18 at 7 10 26 PM" src="https://github.com/user-attachments/assets/6f205ab6-3c61-4b90-b05b-9429233cf3b0" />
 
 ---
 
@@ -118,7 +118,7 @@ WHERE Continent = 'Oceania';
 
 ### Screenshot
 
-![Q6 Screenshot](screenshots/q6_oceania.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-18 at 7 14 14 PM" src="https://github.com/user-attachments/assets/1ef937a5-e68a-49dc-a842-feb59d6313cc" />
 
 ---
 
@@ -135,7 +135,7 @@ FROM city;
 
 ### Screenshot
 
-![Q7 Screenshot](screenshots/q7_city_countrycode.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-18 at 7 18 54 PM" src="https://github.com/user-attachments/assets/2b0255a7-cbb6-4a29-a494-b52f98d6d189" />
 
 ---
 
@@ -153,7 +153,7 @@ WHERE Name = 'Nashville-Davidson';
 
 ### Screenshot
 
-![Q8 Screenshot](screenshots/q8_update_city.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-18 at 7 22 40 PM" src="https://github.com/user-attachments/assets/c65c92a8-0d5e-4259-997d-3982b7af7a96" />
 
 ---
 
@@ -171,7 +171,7 @@ VALUES ('NAR', 'Narnia', 'Europe', 'Fantasy', 1000000);
 
 ### Screenshot
 
-![Q9 Screenshot](screenshots/q9_insert_narnia.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-18 at 7 24 04 PM" src="https://github.com/user-attachments/assets/a6919e10-9542-42db-a568-91d9b589e06b" />
 
 ---
 
@@ -188,4 +188,4 @@ WHERE Code = 'NAR';
 
 ### Screenshot
 
-![Q10 Screenshot](screenshots/q10_delete_narnia.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-18 at 7 24 38 PM" src="https://github.com/user-attachments/assets/26199c97-b4e4-4b4c-99a3-506f9e301a00" />
