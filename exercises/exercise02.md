@@ -43,7 +43,11 @@ Using the World database, write the SQL command to **display each country name a
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT c.name AS country_name, cl.language AS language
+FROM Country c
+JOIN CountryLanguage cl
+    ON c.code = cl.CountryCode
+ORDER BY c.name, cl.language;
 ```
 
 ### Screenshot
@@ -59,7 +63,12 @@ Using the World database, write the SQL command to **display each country name a
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT c.name AS country_name, cl.language AS official_language
+FROM Country c
+JOIN CountryLanguage cl
+    ON c.code = cl.CountryCode
+	WHERE cl.isofficial = 'T'
+ORDER BY c.name, cl.language;
 ```
 
 ### Screenshot
@@ -100,7 +109,8 @@ Do **not** repeat any form of government more than once.
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT DISTINCT (governmentform) from country
+ORDER BY governmentform
 ```
 
 ### Screenshot
