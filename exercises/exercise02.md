@@ -127,7 +127,12 @@ Label the column **"City or Country Name"**.
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT name AS "City or Country Name"
+FROM city
+UNION
+SELECT name AS "City or Country Name"
+FROM country
+ORDER BY "City or Country Name"
 ```
 
 ### Screenshot
@@ -144,7 +149,13 @@ Be sure to **sort by country name**.
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT c.name AS country_name,
+COUNT(cl.language) AS number_of_languages
+FROM country c
+JOIN countrylanguage cl
+ON c.code = cl.countrycode
+GROUP BY c.name
+ORDER BY c.name;
 ```
 
 ### Screenshot
@@ -161,7 +172,11 @@ Be sure to **sort by language name**.
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT cl.language AS language,
+COUNT(cl.countrycode) AS number_of_countries
+FROM countrylanguage cl
+GROUP BY cl.language
+ORDER BY cl.language;
 ```
 
 ### Screenshot
@@ -179,7 +194,15 @@ Using the World database, write the SQL command to **list countries that have mo
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT c.name AS country_name,
+COUNT(cl.language) AS number_of_official_languages
+FROM Country c
+JOIN CountryLanguage cl
+ON c.code = cl.CountryCode
+WHERE cl.isofficial = 'T'
+GROUP BY c.name
+HAVING COUNT(cl.language) >2
+ORDER BY c.name;
 ```
 
 ### Screenshot
@@ -197,7 +220,11 @@ Using the World database, write the SQL command to **find cities where the distr
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT name, district FROM city
+WHERE district LIKE '-'
+   OR district IS NULL
+   OR district = ''
+ORDER BY name;
 ```
 
 ### Screenshot
