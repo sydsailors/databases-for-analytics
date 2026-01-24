@@ -74,7 +74,7 @@ ORDER BY c.name, cl.language;
 
 ### Screenshot
 
-![Q3 Screenshot](screenshots/q3_official_languages.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 2 32 03 PM" src="https://github.com/user-attachments/assets/429095c5-1726-4e32-a1ec-927b87fdb8d0" />
 
 ---
 
@@ -208,7 +208,7 @@ ORDER BY c.name;
 
 ### Screenshot
 
-<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 2 32 03 PM" src="https://github.com/user-attachments/assets/429095c5-1726-4e32-a1ec-927b87fdb8d0" />
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 2 47 46 PM" src="https://github.com/user-attachments/assets/4b6c7edb-0cab-4371-991c-7b39921bf574" />
 
 ---
 
@@ -230,7 +230,7 @@ ORDER BY name;
 
 ### Screenshot
 
-![Q10 Screenshot](screenshots/q10_missing_districts.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 10 34 43 PM" src="https://github.com/user-attachments/assets/9c5d6585-57ad-408a-aab5-03ab32a14338" />
 
 ---
 
@@ -253,4 +253,5 @@ FROM city;
 
 ### Screenshot
 
-![Q11 Screenshot](screenshots/q11_missing_district_percentage.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 10 39 45 PM" src="https://github.com/user-attachments/assets/35420c25-111c-42cf-a5e9-be08f2d8b889" />
+
