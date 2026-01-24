@@ -182,7 +182,7 @@ ORDER BY cl.language;
 
 ### Screenshot
 
-<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 2 32 03 PM" src="https://github.com/user-attachments/assets/429095c5-1726-4e32-a1ec-927b87fdb8d0" />
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 2 38 24 PM" src="https://github.com/user-attachments/assets/02d4e27c-03fd-46bc-b2bf-5983337642fb" />
 
 ---
 
@@ -208,7 +208,7 @@ ORDER BY c.name;
 
 ### Screenshot
 
-![Q9 Screenshot](screenshots/q9_multiple_official_languages.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 2 32 03 PM" src="https://github.com/user-attachments/assets/429095c5-1726-4e32-a1ec-927b87fdb8d0" />
 
 ---
 
