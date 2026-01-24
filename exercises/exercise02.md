@@ -1,6 +1,6 @@
 # Exercise 02: World Database – Joins, Grouping, and Data Quality
 
-- Name: Sydney 
+- Name: Sydney Sailors
 - Course: Database for Analytics
 - Module: 2
 - Database Used: World Database (PostgreSQL)
