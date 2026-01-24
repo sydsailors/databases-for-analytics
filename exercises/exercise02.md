@@ -74,7 +74,7 @@ ORDER BY c.name, cl.language;
 
 ### Screenshot
 
-<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 2 32 03 PM" src="https://github.com/user-attachments/assets/429095c5-1726-4e32-a1ec-927b87fdb8d0" />
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 11 30 58 PM" src="https://github.com/user-attachments/assets/a4e1f9f9-7c12-41dd-9bb5-84e5b167c37f" />
 
 ---
 
