@@ -97,7 +97,7 @@ ON country.code = countrylanguage.countrycode;
 **In your own words**, describe what data the **second query returns that the first query does not**.
 
 ### Answer
-_Write your explanation here._
+The second query returns all rows of the left table (country) and the matching rows from the right table (countrylanguage). Rows that do not match return 'NULL'. The first query only returns the rows where a match exists in both tables.
 
 ---
 
@@ -221,7 +221,7 @@ Using the World database, write the SQL command to **find cities where the distr
 
 ```sql
 SELECT name, district FROM city
-WHERE district LIKE '-'
+WHERE district LIKE '–                   '
    OR district IS NULL
    OR district = ''
 ORDER BY name;
@@ -242,7 +242,12 @@ Using the World database, write the SQL command to **calculate the percentage of
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT
+ROUND(100.0 * COUNT(CASE WHEN district = '–                   ' OR district IS NULL THEN 1 END)
+/ COUNT(*),
+2
+) AS percent_missing_districts
+FROM city;
 ```
 
 ### Screenshot
