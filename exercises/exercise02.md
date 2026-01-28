@@ -23,16 +23,17 @@
 When importing records from `worldPGSQL.sql`, **how many cities were imported**?
 
 ### Answer
+
 4079
 
 ### Screenshot
-_Show evidence of how you determined this (for example, a COUNT query)._
+
+<img width="1440" height="900" alt="Screen Shot 2026-01-22 at 3 18 01 PM" src="https://github.com/user-attachments/assets/25f7c077-6a56-449d-a1d2-d350b114367e" />
+
 
 ```sql
 SELECT count(*) FROM city
 ```
-
-![Q1 Screenshot](screenshots/q1_city_count.png)
 
 ---
 
@@ -52,7 +53,7 @@ ORDER BY c.name, cl.language;
 
 ### Screenshot
 
-![Q2 Screenshot](screenshots/q2_country_languages.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-22 at 3 18 18 PM" src="https://github.com/user-attachments/assets/9d16d63b-0fce-4172-b878-8f74082bce2e" />
 
 ---
 
@@ -73,7 +74,7 @@ ORDER BY c.name, cl.language;
 
 ### Screenshot
 
-![Q3 Screenshot](screenshots/q3_official_languages.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 11 30 58 PM" src="https://github.com/user-attachments/assets/a4e1f9f9-7c12-41dd-9bb5-84e5b167c37f" />
 
 ---
 
@@ -115,7 +116,7 @@ ORDER BY governmentform
 
 ### Screenshot
 
-![Q5 Screenshot](screenshots/q5_government_forms.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-22 at 3 48 24 PM" src="https://github.com/user-attachments/assets/02eb6579-6a19-44a0-bbe8-ff9081fac8e3" />
 
 ---
 
@@ -137,7 +138,7 @@ ORDER BY "City or Country Name"
 
 ### Screenshot
 
-![Q6 Screenshot](screenshots/q6_union_city_country.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 2 27 11 PM" src="https://github.com/user-attachments/assets/44189ef9-65f8-4c5c-9832-39d61064d6ce" />
 
 ---
 
@@ -160,7 +161,7 @@ ORDER BY c.name;
 
 ### Screenshot
 
-![Q7 Screenshot](screenshots/q7_language_count_by_country.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 2 32 03 PM" src="https://github.com/user-attachments/assets/5f0838c2-c43b-4d9d-a545-db6d92bdf44b" />
 
 ---
 
@@ -181,7 +182,7 @@ ORDER BY cl.language;
 
 ### Screenshot
 
-![Q8 Screenshot](screenshots/q8_language_country_count.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 2 38 24 PM" src="https://github.com/user-attachments/assets/02d4e27c-03fd-46bc-b2bf-5983337642fb" />
 
 ---
 
@@ -207,7 +208,7 @@ ORDER BY c.name;
 
 ### Screenshot
 
-![Q9 Screenshot](screenshots/q9_multiple_official_languages.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 2 47 46 PM" src="https://github.com/user-attachments/assets/4b6c7edb-0cab-4371-991c-7b39921bf574" />
 
 ---
 
@@ -229,7 +230,7 @@ ORDER BY name;
 
 ### Screenshot
 
-![Q10 Screenshot](screenshots/q10_missing_districts.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 10 34 43 PM" src="https://github.com/user-attachments/assets/9c5d6585-57ad-408a-aab5-03ab32a14338" />
 
 ---
 
@@ -252,4 +253,5 @@ FROM city;
 
 ### Screenshot
 
-![Q11 Screenshot](screenshots/q11_missing_district_percentage.png)
+<img width="1440" height="900" alt="Screen Shot 2026-01-23 at 10 39 45 PM" src="https://github.com/user-attachments/assets/35420c25-111c-42cf-a5e9-be08f2d8b889" />
+
