@@ -65,7 +65,7 @@ db.restaurants.find({borough:'Queens'})
 
 ### Screenshot
 
-![Q3 Screenshot](screenshots/q3_queens_restaurants.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-01 at 4 45 58 PM" src="https://github.com/user-attachments/assets/480e0cdf-65bb-462e-bd81-7465f68c7e7d" />
 
 ---
 
