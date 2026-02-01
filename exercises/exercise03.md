@@ -144,7 +144,7 @@ db.restaurants.find({"address.zipcode":'10460'},{_id:0,name:1})
 
 ### Screenshot
 
-![Q7 Screenshot](screenshots/q7_zipcode_names.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-01 at 5 29 08 PM" src="https://github.com/user-attachments/assets/107e8f6f-d105-4d26-a7f9-74109fbcfe8f" />
 
 ---
 
