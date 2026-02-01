@@ -97,7 +97,7 @@ db.restaurants.countDocuments({borough:'Queens',cuisine:'Hamburgers'})
 
 ### Screenshot
 
-![Q5 Screenshot](screenshots/q5_queens_hamburgers.png)
+<img width="590" height="45" alt="Screen Shot 2026-02-01 at 4 58 00 PM" src="https://github.com/user-attachments/assets/1a849412-7ff7-401b-821b-9dd3ce68a7ea" />
 
 ---
 
