@@ -139,7 +139,7 @@ Your output should resemble:
 ### MongoDB Query
 
 ```javascript
-// Your MongoDB query here
+db.restaurants.find({"address.zipcode":'10460'},{_id:0,name:1})
 ```
 
 ### Screenshot
