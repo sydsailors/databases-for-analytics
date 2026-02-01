@@ -81,7 +81,7 @@ db.restaurants.countDocuments({borough:'Queens'})
 
 ### Screenshot
 
-![Q4 Screenshot](screenshots/q4_queens_count.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-01 at 4 48 39 PM" src="https://github.com/user-attachments/assets/1f581675-2e5c-4c65-a0eb-0a15098d0bc4" />
 
 ---
 
