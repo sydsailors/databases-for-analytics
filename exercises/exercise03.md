@@ -115,7 +115,7 @@ db.restaurants.countDocuments({"address.zipcode":'10460'})
 
 ### Screenshot
 
-![Q6 Screenshot](screenshots/q6_zipcode_count.png)
+<img width="500" height="51" alt="Screen Shot 2026-02-01 at 5 17 59 PM" src="https://github.com/user-attachments/assets/b860050f-b4c5-4543-8d5d-6e52ee9a2197" />
 
 ---
 
