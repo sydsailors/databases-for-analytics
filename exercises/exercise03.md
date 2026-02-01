@@ -159,7 +159,7 @@ Your results should include:
 ### MongoDB Query
 
 ```javascript
-// Your MongoDB query here
+db.restaurants.find({name:{$regex:"IHOP",$options:"i"}},{_id:0,name:1})
 ```
 
 ### Screenshot
