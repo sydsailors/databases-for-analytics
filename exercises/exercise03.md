@@ -49,7 +49,7 @@ use 44661
 
 ### Screenshot
 
-![Q2 Screenshot](screenshots/q2_use_database.png)
+<img width="361" height="83" alt="Screen Shot 2026-02-01 at 4 25 56 PM" src="https://github.com/user-attachments/assets/57350bfb-1e34-4647-8ca3-5e09a0511938" />
 
 ---
 
