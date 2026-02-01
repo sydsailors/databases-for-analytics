@@ -33,7 +33,7 @@ When importing the documents from `restaurants-json.json`, **how many documents 
 db.restaurants.countDocuments()
 ```
 
-![Q1 Screenshot](screenshots/q1_document_count.png)
+<img width="423" height="177" alt="Screen Shot 2026-02-01 at 11 41 02 AM" src="https://github.com/user-attachments/assets/c7a5de6c-a368-4af6-bdee-82bf04cf9521" />
 
 ---
 
