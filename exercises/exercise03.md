@@ -164,4 +164,4 @@ db.restaurants.find({name:{$regex:"IHOP",$options:"i"}},{_id:0,name:1})
 
 ### Screenshot
 
-![Q8 Screenshot](screenshots/q8_ihop_case_insensitive.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-01 at 5 32 47 PM" src="https://github.com/user-attachments/assets/0cd4164c-c477-48bc-9614-e427c3ee77f2" />
