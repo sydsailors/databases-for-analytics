@@ -56,7 +56,24 @@ After the `create_engine` command is executed, **what are the three statements r
 ### Python Code
 
 ```python
-# Your three Python statements here
+query = """
+SELECT 
+    c.name AS country_name, 
+    COUNT(cl.language) AS number_of_official_languages
+FROM country c
+JOIN countrylanguage cl
+    ON c.code = cl.countrycode
+WHERE cl.isofficial = 'T'
+GROUP BY c.name
+HAVING COUNT(cl.language) > 2
+ORDER BY number_of_official_languages DESC;
+"""
+
+df = pd.read_sql(query, engine)
+
+df.index = df.index + 1
+
+df
 ```
 
 ### Screenshot
