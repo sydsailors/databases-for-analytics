@@ -43,7 +43,7 @@ ORDER BY number_of_official_languages DESC;
 
 ### Screenshot
 
-![Q1 Screenshot](screenshots/q1_official_language_counts.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-08 at 7 39 11 PM" src="https://github.com/user-attachments/assets/bfdb7cf3-4d64-4219-8586-04e341af1ad5" />
 
 ---
 
@@ -78,7 +78,7 @@ df
 
 ### Screenshot
 
-![Q2 Screenshot](screenshots/q2_jupyter_query_results.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-08 at 7 41 50 PM" src="https://github.com/user-attachments/assets/f0b354a2-182d-4551-9531-e48768d78fb1" />
 
 ---
 
@@ -107,4 +107,5 @@ plt.show()
 
 ### Screenshot
 
-![Q3 Screenshot](screenshots/q3_countries_graph.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-08 at 7 42 22 PM" src="https://github.com/user-attachments/assets/5e0711ec-34e0-4b14-bb30-5d4b15a2fe3c" />
+
