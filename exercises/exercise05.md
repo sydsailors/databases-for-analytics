@@ -281,7 +281,19 @@ Reference image:
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT row_to_json(t)
+FROM (
+    SELECT
+        d.dealership_id,
+        d.state,
+        ARRAY_AGG(s.last_name || ',' || s.first_name ORDER BY s.last_name, s.first_name) AS salespeople,
+        COUNT(s.salesperson_id) AS num_salespeople
+    FROM dealerships d
+    JOIN salespeople s
+      ON d.dealership_id = s.dealership_id
+    GROUP BY d.dealership_id, d.state
+    ORDER BY d.state
+) t;
 ```
 
 ### Screenshot
