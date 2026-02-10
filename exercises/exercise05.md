@@ -207,7 +207,7 @@ ORDER BY dealership_id;
 
 ### Screenshot
 
-![Q7 Screenshot](screenshots/q7_salespeople_array_by_dealership.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-10 at 1 50 40 PM" src="https://github.com/user-attachments/assets/2e45d76b-e498-4ae2-8ee2-4d0e6d350f54" />
 
 ---
 
