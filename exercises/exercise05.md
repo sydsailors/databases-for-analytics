@@ -141,7 +141,7 @@ After looking at the data, **why is this the case?**
 
 ### Answer
 
-_Write your explanation here._
+It appears that the sent_date timestamps are not true event times in this dataset as they are all set to the same default time (15:00). The 'opened_date' contains real times (ex. 14:32:11; 13:12:22; etc). This shows a data quality issue rather than emails actually being opened before they were sent. 
 
 ### Screenshot (if requested by instructor)
 
