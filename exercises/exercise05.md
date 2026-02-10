@@ -78,7 +78,7 @@ ORDER BY year;
 
 ### Screenshot
 
-![Q2 Screenshot](screenshots/q2_message_count_by_year.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-10 at 11 37 23 AM" src="https://github.com/user-attachments/assets/9ee383ee-da06-4f67-9367-77585fc9ab98" />
 
 ---
 
