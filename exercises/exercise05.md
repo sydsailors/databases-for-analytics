@@ -129,7 +129,7 @@ ORDER BY email_id;
 
 ### Screenshot
 
-![Q4 Screenshot](screenshots/q4_opened_before_sent.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-10 at 11 45 35 AM" src="https://github.com/user-attachments/assets/d11f5222-532b-466d-9369-ac77370585ce" />
 
 ---
 
