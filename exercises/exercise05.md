@@ -260,7 +260,7 @@ FROM customers c;
 
 ### Screenshot
 
-![Q9 Screenshot](screenshots/q9_customers_to_json.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-10 at 2 16 59 PM" src="https://github.com/user-attachments/assets/05c20b07-4ed3-4f43-8632-64c0f122ef33" />
 
 ---
 
