@@ -254,7 +254,8 @@ Using the `sqlda` database, write the SQL needed to convert the **customers** ta
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT json_agg(row_to_json(c))
+FROM customers c;
 ```
 
 ### Screenshot
