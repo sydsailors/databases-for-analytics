@@ -1,8 +1,8 @@
 # Exercise 05: SQLDA Database - Dates, Data Quality, Arrays, and JSON
 
-- Name:
+- Name: Sydney Sailors
 - Course: Database for Analytics
-- Module:
+- Module: 05
 - Database Used:  `sqlda` (Sample Datasets)
 - Tools Used: PostgreSQL (pgAdmin or psql)
 
@@ -42,7 +42,10 @@ year
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT DISTINCT 
+EXTRACT(YEAR FROM sent_date) AS year
+FROM emails
+ORDER BY year;
 ```
 
 ### Screenshot
