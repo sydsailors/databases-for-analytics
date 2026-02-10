@@ -116,7 +116,15 @@ Using the `sqlda` database, write the SQL needed to show emails that contain an 
 ### SQL
 
 ```sql
--- Your SQL here
+SELECT
+email_id,
+sent_date,
+opened_date
+FROM emails
+WHERE sent_date IS NOT NULL
+AND opened_date IS NOT NULL
+AND opened_date < sent_date
+ORDER BY email_id;
 ```
 
 ### Screenshot
