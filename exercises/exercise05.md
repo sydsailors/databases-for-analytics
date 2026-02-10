@@ -50,7 +50,7 @@ ORDER BY year;
 
 ### Screenshot
 
-![Q1 Screenshot](screenshots/q1_email_years.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-10 at 11 33 17 AM" src="https://github.com/user-attachments/assets/39604a07-2409-4e77-ab21-9afefb20c91b" />
 
 ---
 
