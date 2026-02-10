@@ -105,7 +105,7 @@ AND opened_date IS NOT NULL;
 
 ### Screenshot
 
-![Q3 Screenshot](screenshots/q3_sent_opened_interval.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-10 at 11 42 02 AM" src="https://github.com/user-attachments/assets/c174ff58-cb5d-49fc-a3a7-36185cab084e" />
 
 ---
 
