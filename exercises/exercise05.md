@@ -178,7 +178,7 @@ CREATE TEMP TABLE customer_dealership_distance AS (
 
 ### Answer
 
-_Write your explanation here._
+The first one is creating temporary table of customer locations. It converts longitude and latitude into a geographical point then displays the information of customers and their geographical location. The second one is creating a temporary table of dealership points. It converts longitude and latitude into a geographical point again then displays the dealership by their id and their geographical point. The third one is creating a temporary table of distances between every customer and dealership. It performs a cross join where it pairs every customer with every dealership then calculates the distance between their two location points using <@>. It displays the customer id, dealership id, and the distance between them.
 
 ---
 
