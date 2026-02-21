@@ -121,4 +121,6 @@ In 1-2 short paragraphs, explain:
 
 #### Design Notes
 
-_Write your design notes here._
+The dimensions I chose were date, customer, and part. The date dimension supports analysis by day, month, quarter, and year. The customer dimension includes discriptive attributes needed for analysis such as customer number, name, and geographical information. The part dimension supports both product and catrgorical level analysis. Sales representative, order, and inventory details were intentionally excluded because they are not required for the stated analytical goals.
+
+The fact table uses the daily sales grain which means each record represents the total sales for a specific part, customer, and date. This makes it easier to summarize sales over longer periods of time without keeping unneccesary order details. We can answer questions such as how many units of a part were sold on a particular date, how much a customer spent over a year, and what the average daily sales were during a given month or quarter.
