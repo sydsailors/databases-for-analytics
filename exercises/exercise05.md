@@ -298,4 +298,4 @@ FROM (
 
 ### Screenshot
 
-![Q10 Screenshot](screenshots/q10_salespeople_array_to_json.png)
+<img width="1440" height="900" alt="Screen Shot 2026-02-10 at 2 23 38 PM" src="https://github.com/user-attachments/assets/5fe5b1bf-8767-4ec9-858b-aa1ccb100732" />
