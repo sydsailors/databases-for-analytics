@@ -103,11 +103,10 @@ You may use any tool, such as:
 
 Save your diagram image in this repo and embed it below.
 
-**File name suggestion:** `star-schema.png` or `star-schema.jpg`
 
 #### Diagram
 
-![Star Schema Diagram](star-schema.png)
+<img width="556" height="342" alt="Screen Shot 2026-02-21 at 3 03 51 PM" src="https://github.com/user-attachments/assets/5223854a-a28a-47cc-aa14-3a4bed4695e6" />
 
 ---
 
